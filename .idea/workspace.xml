@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../Spring-Android-Push-Notifications-FCM-" value="2982778440000" />
+        <entry key="$PROJECT_DIR$/../geospatial-messenger" value="1478540966000" />
+        <entry key="$PROJECT_DIR$/../mixit" value="1489111098000" />
+        <entry key="$PROJECT_DIR$/../phonebook" value="1491965356000" />
+        <entry key="$PROJECT_DIR$/../securing-web/initial" value="1488507230000" />
+        <entry key="$PROJECT_DIR$/../spring-boot-data-mongodb-example" value="1488291480000" />
+        <entry key="$PROJECT_DIR$/../spring-boot-security-example" value="1426457946000" />
+        <entry key="$PROJECT_DIR$/../spring-rest-client-demo" value="1487749606000" />
+        <entry key="$PROJECT_DIR$/../spring-rest-web-service-demo" value="1487749362000" />
+        <entry key="$PROJECT_DIR$/../springfirebase" value="2982778956000" />
+        <entry key="$PROJECT_DIR$/../test-api" value="1489382010000" />
+        <entry key="$USER_HOME$/Downloads/Compressed/Testing/hascode-greenmail-it-samples" value="1343653042000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../GrailsMailExample" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Kotlin-JDBC" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../github/spring-boot-jwt/poc-autorization-rest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../grails-angular" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../grails-fcm" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../grails-react" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../grails-rest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../grails-vue" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../heroku-gradle-spring-boot" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kotlin-getting-started" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kotlin-script-templating" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../quickstart-java/database" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-boot-angular-2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-boot-hello-world-postgres/complete" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-boot-ssl" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-boot-websockets-highcharts" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-cloud-zuul-gateway" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../springboot-vuejs-firebase/gemini-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../campur2/grails3-mongodb-react-profile" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545951859436" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>hendisantika</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
