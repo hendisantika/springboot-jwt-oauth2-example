@@ -1,44 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../Spring-Android-Push-Notifications-FCM-" value="2982778440000" />
-        <entry key="$PROJECT_DIR$/../geospatial-messenger" value="1478540966000" />
-        <entry key="$PROJECT_DIR$/../mixit" value="1489111098000" />
-        <entry key="$PROJECT_DIR$/../phonebook" value="1491965356000" />
-        <entry key="$PROJECT_DIR$/../securing-web/initial" value="1488507230000" />
-        <entry key="$PROJECT_DIR$/../spring-boot-data-mongodb-example" value="1488291480000" />
-        <entry key="$PROJECT_DIR$/../spring-boot-security-example" value="1426457946000" />
-        <entry key="$PROJECT_DIR$/../spring-rest-client-demo" value="1487749606000" />
-        <entry key="$PROJECT_DIR$/../spring-rest-web-service-demo" value="1487749362000" />
-        <entry key="$PROJECT_DIR$/../springfirebase" value="2982778956000" />
-        <entry key="$PROJECT_DIR$/../test-api" value="1489382010000" />
-        <entry key="$USER_HOME$/Downloads/Compressed/Testing/hascode-greenmail-it-samples" value="1343653042000" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../GrailsMailExample" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../Kotlin-JDBC" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../github/spring-boot-jwt/poc-autorization-rest" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../grails-angular" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../grails-fcm" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../grails-react" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../grails-rest" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../grails-vue" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../heroku-gradle-spring-boot" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../kotlin-getting-started" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../kotlin-script-templating" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../quickstart-java/database" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-boot-angular-2" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-boot-hello-world-postgres/complete" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-boot-ssl" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-boot-websockets-highcharts" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-cloud-zuul-gateway" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../springboot-vuejs-firebase/gemini-app" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../campur2/grails3-mongodb-react-profile" value="PREVIEW" />
-      </map>
+  <component name="ChangeListManager">
+    <list default="true" id="1a68fb15-bc0d-49ce-8479-a76e1abc72bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-jwt-oauth2-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-jwt-oauth2-example.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -52,16 +86,50 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-jwt-oauth2-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-jwt-oauth2-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545951859436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545952491818" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -99,6 +167,122 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a68fb15-bc0d-49ce-8479-a76e1abc72bc" name="Default Changelist" comment="" />
+      <created>1545951779799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545951779799</updated>
+      <workItem from="1545951783303" duration="540000" />
+    </task>
+    <task id="LOCAL-00001" summary="#2 - Initial commit">
+      <created>1545952221323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545952221323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="540000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32961586" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="#2 - Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - Initial commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
