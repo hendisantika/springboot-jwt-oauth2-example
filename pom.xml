@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>aggregation-server</module>
+        <module>jwt-public-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
