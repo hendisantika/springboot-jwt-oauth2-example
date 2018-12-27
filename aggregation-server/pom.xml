@@ -50,10 +50,10 @@
             <artifactId>spring-security-jwt</artifactId>
             <optional>true</optional>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>de.psm</groupId>-->
-        <!--<artifactId>jwt-public-config</artifactId>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.hendisantika</groupId>
+            <artifactId>jwt-public-config</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
