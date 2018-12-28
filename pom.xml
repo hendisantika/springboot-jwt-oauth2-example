@@ -7,6 +7,7 @@
         <module>aggregation-server</module>
         <module>jwt-public-config</module>
         <module>resource-server</module>
+        <module>auth-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
