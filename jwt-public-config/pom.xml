@@ -13,6 +13,7 @@
     <artifactId>jwt-public-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <name>JWT Test Public JWT settings</name>
     <description>JWT Test Public JWT settings</description>
 
     <dependencies>
