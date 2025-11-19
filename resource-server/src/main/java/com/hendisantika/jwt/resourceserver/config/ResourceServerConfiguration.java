@@ -40,19 +40,17 @@ public class ResourceServerConfiguration  extends ResourceServerConfigurerAdapte
         super.configure(http);
         // @formatter:off
         http
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER)
-                .and()
-                .requestMatchers()
-                .antMatchers("/**")
-                .and()
-                .authorizeRequests()
-                .antMatchers(HttpMethod.OPTIONS, "/api/**").permitAll()
-                .antMatchers(HttpMethod.GET, "/api/**").access("#oauth2.hasScope('read')")
-                .antMatchers(HttpMethod.PATCH, "/api/**").access("#oauth2.hasScope('write')")
-                .antMatchers(HttpMethod.POST, "/api/**").access("#oauth2.hasScope('write')")
-                .antMatchers(HttpMethod.PUT, "/api/**").access("#oauth2.hasScope('write')")
-                .antMatchers(HttpMethod.DELETE, "/api/**").access("#oauth2.hasScope('write')")
-                .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')");
+                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.NEVER))
+                .authorizeHttpRequests(authorize -> authorize
+                        .requestMatchers(HttpMethod.OPTIONS, "/api/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/**").hasAuthority("SCOPE_read")
+                        .requestMatchers(HttpMethod.PATCH, "/api/**").hasAuthority("SCOPE_write")
+                        .requestMatchers(HttpMethod.POST, "/api/**").hasAuthority("SCOPE_write")
+                        .requestMatchers(HttpMethod.PUT, "/api/**").hasAuthority("SCOPE_write")
+                        .requestMatchers(HttpMethod.DELETE, "/api/**").hasAuthority("SCOPE_write")
+                        .requestMatchers("/admin/**").hasRole("ADMIN")
+                        .anyRequest().authenticated()
+                );
 
         // @formatter:on
     }

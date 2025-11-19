@@ -3,9 +3,15 @@ package com.hendisantika.jwt.authserver.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.web.SecurityFilterChain;
 
 /**
  * Created by IntelliJ IDEA.
@@ -18,19 +24,36 @@ import org.springframework.security.config.annotation.web.servlet.configuration.
  * To change this template use File | Settings | File Templates.
  */
 @Configuration
-@EnableWebMvcSecurity
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+@EnableWebSecurity
+public class SecurityConfig {
 
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().withUser("user").password("testpass").roles("USER");
+    @Bean
+    public UserDetailsService userDetailsService() {
+        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
+        manager.createUser(User.withUsername("user")
+                .password("testpass")
+                .roles("USER")
+                .build());
+        return manager;
     }
 
     @Bean
-    @Override
-    public AuthenticationManager authenticationManagerBean()
+    public PasswordEncoder passwordEncoder() {
+        return NoOpPasswordEncoder.getInstance();
+    }
+
+    @Bean
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration)
             throws Exception {
-        return super.authenticationManagerBean();
+        return authenticationConfiguration.getAuthenticationManager();
+    }
+
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http.authorizeHttpRequests(authorize -> authorize
+                .anyRequest().authenticated()
+        );
+        return http.build();
     }
 
 }

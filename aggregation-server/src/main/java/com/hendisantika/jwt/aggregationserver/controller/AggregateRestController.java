@@ -1,6 +1,5 @@
 package com.hendisantika.jwt.aggregationserver.controller;
 
-import com.wordnik.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.oauth2.client.resource.OAuth2ProtectedResourceDetails;
@@ -30,7 +29,6 @@ public class AggregateRestController extends AbstractTokenReusageRemoteRestContr
     private String resource1BaseURL;
 
     @RequestMapping(method = RequestMethod.GET, value = "/api/me")
-    @ApiOperation(value = "Returns the authentication object of the current user")
     public Map me() {
         return remoteOAuthTokenReusageRestTemplate(resource1).getForEntity(resource1BaseURL + "/api/me", Map.class).getBody();
     }

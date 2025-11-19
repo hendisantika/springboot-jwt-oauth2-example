@@ -37,14 +37,12 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
         super.configure(http);
         // @formatter:off
         http
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER)
-                .and()
-                .requestMatchers()
-                .antMatchers("/**")
-                .and()
-                .authorizeRequests()
-                .antMatchers("/api/**").access("hasRole('ROLE_USER')")
-                .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')");
+                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.NEVER))
+                .authorizeHttpRequests(authorize -> authorize
+                        .requestMatchers("/api/**").hasRole("USER")
+                        .requestMatchers("/admin/**").hasRole("ADMIN")
+                        .anyRequest().authenticated()
+                );
 
         // @formatter:on
     }

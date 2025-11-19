@@ -4,10 +4,13 @@ import com.hendisantika.jwt.authserver.handler.SparklrUserApprovalHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.*;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
@@ -34,7 +37,6 @@ import org.springframework.security.oauth2.provider.token.store.KeyStoreKeyFacto
  */
 @Configuration
 @EnableAuthorizationServer
-@EnableWebMvcSecurity
 public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
 
     private static final String DUMMY_RESOURCE_ID = "dummy";
